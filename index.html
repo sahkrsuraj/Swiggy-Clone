@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut-icon" sizes="192x192" href="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_192,h_192/portal/c/logo_2022.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="root">
+  </div>
+  <script type="module" src="./src/App.js"></script>
+</body>
+</html>
+
+<!-- for test
+  1. install react testing library
+  2. install jest
+  3. since we use parcel and bundle is already installed, install other dependencies of babel
+  4. configure babel to use jest in babel.config.js
+  5. Since parcel uses babel the babel config for jest will cause issue so disable the default babel transpilation
+  and create a new ".parcelrc"
+  6. Jest npx jest --init to configure jest
+  7. install jsdom
+
+-->

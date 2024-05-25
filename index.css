@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BasicGrotesque";
+  src: url('assets/Fonts/Basis-Grotesque.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('assets/Fonts/Montserrat.woff2') format("woff2");
+}
+
+.labelOnFocus{
+  font-size: 12px;
+  font-weight: 500;
+  transform: translateY(-60%);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
